@@ -1,20 +1,9 @@
 /**
- * Main styles for reveal.js 
+ * Main styles for idea.diwank.name
  *
- * @author Hakim El Hattab
+ * @author Diwank Singh Tomer - singh [at] diwank [dot] name
  */
 
-
-/*********************************************
- * FONT-FACE DEFINITIONS
- *********************************************/
-
-@font-face {
-	font-family: 'League Gothic';
-	src: url('../assets/fonts/leaguegothic/league_gothic-webfont.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
 
 
 /*********************************************
@@ -27,7 +16,7 @@ html, body {
 	margin: 0;
 	overflow: hidden;
 	
-	font-family: 'Lato', Times, 'Times New Roman', serif;
+	font-family: 'Nixie One', Times, 'Times New Roman', serif;
 	font-size: 36px;
 	font-weight: 200;
 	letter-spacing: -0.02em;
@@ -41,13 +30,20 @@ html, body {
 }
 
 html {
-	background: #1c1e20;
-	background: -moz-radial-gradient(center, ellipse cover, #555a5f 0%, #1c1e20 100%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#555a5f), color-stop(100%,#1c1e20));
-	background: -webkit-radial-gradient(center, ellipse cover, #555a5f 0%,#1c1e20 100%);
-	background: -o-radial-gradient(center, ellipse cover, #555a5f 0%,#1c1e20 100%);
-	background: -ms-radial-gradient(center, ellipse cover, #555a5f 0%,#1c1e20 100%);
-	background: radial-gradient(center, ellipse cover, #555a5f 0%,#1c1e20 100%);
+	background: #105572;
+	background: -moz-radial-gradient(center, ellipse cover, #36A1C4 0%, #105572 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#36A1C4), color-stop(100%,#105572));
+	background: -webkit-radial-gradient(center, ellipse cover, #36A1C4 0%,#105572 100%);
+	background: -o-radial-gradient(center, ellipse cover, #36A1C4 0%,#105572 100%);
+	background: -ms-radial-gradient(center, ellipse cover, #36A1C4 0%,#105572 100%);
+	background: radial-gradient(center, ellipse cover, #36A1C4 0%,#105572 100%);
+}
+
+.more{
+    text-decoration: none;
+    font-size: 60%;
+    vertical-align: super;
+    margin: 6px;
 }
 
 /*********************************************
@@ -61,7 +57,7 @@ html {
 	
 	color: #eee;
 	
-	font-family: 'League Gothic', sans-serif;
+	font-family: 'Erica One', sans-serif;
 	line-height: 0.9em;
 	letter-spacing: 0.02em;
 	
@@ -163,7 +159,8 @@ html {
 	padding: 5px;
 	
 	font-style: italic;
-	background: rgba(255, 255, 255, 0.05);
+	border-left: 18px solid #eee;
+
 	box-shadow: 0px 0px 2px rgba(0,0,0,0.2);
 }
 	#reveal blockquote:before {
@@ -245,15 +242,6 @@ html {
 	        transition: all .2s linear;
 }
 
-	#reveal a:hover img {
-		background: rgba(255,255,255,0.2);
-		border-color: #13DAEC;
-		
-		-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
-		   -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
-		     -o-box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
-		        box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
-	}
 
 
 /*********************************************
@@ -273,12 +261,13 @@ html {
 	#reveal .controls a {
 		font-size: 30px;
 		position: absolute;
-		opacity: 0.1;
+		color: #FF5E99;
+		opacity: 0.3;
 		color: #fff;
 	}
 		#reveal .controls a.enabled {
-			opacity: 0.6;
-			color: hsl(185, 85%, 70%);
+			opacity: 0.8;
+			color: #FF5E99;
 
 			text-shadow: 0px 0px 2px hsla(185, 45%, 70%, 0.3);
 		}
@@ -823,19 +812,25 @@ html {
  * NEON THEME
  *********************************************/
 
-#reveal.neon a,
-#reveal.neon a:hover,
+#reveal.neon a {
+    color: #fe57a1;
+}
+
+#reveal.neon a:hover {
+    border-bottom: 1px dotted #FF5E99;
+}
+
 #reveal.neon .controls a.enabled {
-	color: #5de048;
+	
 }
 
 #reveal.neon .progress span,
 #reveal.neon .roll span:after {
-	background: #5de048;
+	background: #FF5E99;
 }
 
 #reveal.neon a.image:hover img {
-	border-color: #5de048;
+	border-color: #FF5E99;
 }
 
 
@@ -896,8 +891,82 @@ html {
 	position: relative!important;
 }
 
+/*********************************************
+ * SHAPES
+ *********************************************/
 
+#triangle-down {
+	opacity:0.8;
+	margin: auto;
+	margin-top: 1.2em;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 50px solid #fff;
+}
+#triangle-up {
+	opacity:0.8;
+	margin: auto;
+	margin-top: 1.2em;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 40px solid #fff;
+}
 
-
-
-
+#triangle-down:hover,
+#triangle-up:hover {
+    opacity:1;
+}
+#star-five {
+	opacity:0.8;
+   margin: 50px auto 0;
+   position: relative;
+   display: block;
+   color: red;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid #5de048;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+#star-five:before {
+   border-bottom: 80px solid #5de048;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+   
+}
+#star-five:after {
+   position: absolute;
+   display: block;
+   color: #5de048;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid #5de048;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}

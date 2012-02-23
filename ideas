@@ -40,7 +40,7 @@ Why?:   Social Networks seem to overlook the fact that people share "things" and
 Who?:   People with content to share.
         Artists. Photographers. Activists. And every other creative soul...
 Where?: Via torrents and over regular social networks.
-When?:  Now.
+When?:  Today.
         And in the event of a nuclear holocaust.
         "Distributed" means users have the data. Always.
 
@@ -50,7 +50,7 @@ How?:   Git based disbrituted content sharing.
 
 ________________________________________________________________________________
 
-Name:   IHeartCode
+Name:   IHeartCode!
 Desc:   Interactively teach people how to code.
 
 Question: How to make good hackers[1] ?
@@ -63,15 +63,16 @@ Why?:   We have a lot of computer science graduates.
         Why is that?
         We think this is a symptom of an underlying disease in modern education system.
         And we are trying to figure out a cure.
-Who?:   Everybody who wishes to dive in and unserstand computing.
+Who?:   Everybody who wishes to dive in and understand computing.
 Where?: In your browser.
         On your mobile or tablet or PC or Mac.
 When?:  Whenever the user feels his creative juices flow.
 
-How?:   Client Side interactive platform based on AIML[1] and in-browser REPL[2].
+How?:   Client Side interactive platform based on AIML[2] and in-browser REPL[3].
         
-[1]:    AIML, or Artificial Intelligence Markup Language, is an XML dialect for creating natural language software agents.
-[2]:    A read–eval–print loop (REPL), also known as an interactive toplevel, is a simple, interactive computer programming environment.
+[1]:    http://en.wikipedia.org/wiki/Hacker_(programmer_subculture)
+[2]:    AIML, or Artificial Intelligence Markup Language, is an XML dialect for creating natural language software agents.
+[3]:    A read–eval–print loop (REPL), also known as an interactive toplevel, is a simple, interactive computer programming environment.
         The term is most usually used to refer to a Lisp interactive environment, but can be applied to command line shells and similar environments for F#, Smalltalk, Standard ML, Perl, Prolog, Scala, Python, Ruby, Haskell, APL, BASIC, J, Tcl, and other languages as well.
         
 ________________________________________________________________________________
@@ -84,15 +85,15 @@ Question: How to solve the UN Millenium Goals[1] ?
 What?:  Eva represents the millions of people who live in deprivation.
         Eva is an attempt to solve the world's biggest proplems.
         (Especially, the ones listed under the UN Millenium Development Goals [1])
-Why?:   Hope dims for universal education by 2015, even as many poor countries make tremendous strides
+Why?:   Hope dims for universal education by 2015, even as many poor countries make tremendous strides.
         We are frustrated by the sheer lack of global cooperation when it comes to human development.
         Someone has to stand up against this.
 Who?:   The nearly 7 billion people on this planet.
 Where?: In Sub-Saharan Africa.
         In South-East Asia.
         In conflict zones.
-        And wherever people need help.
-When?:  We start today and change this world one small step at a time.
+        And wherever else people need help.
+When?:  We start now and change this world one small step at a time.
 
 How?:   By enabling people to make a contribution to human development.
         By creating automated systems for not-for-profit organizations that are actively engaged in such endeavours.
@@ -159,7 +160,7 @@ Desc:   A Startup for Startups that provides them access to infrastructure and t
 Question: How do we enable startups to spring up globally?
 
 What?:  IndSpark Initiative is a launchpad for talented people on the lines of YCombinator[1].
-        We take this a step further to provide training and enhance education giving insights to future-entrepreneurs.
+        We take this a step further and provide training and enhance education giving insights to future-entrepreneurs.
 Why?:   Because we need more Larry Page's.
 Who?:   To-Be Entrepreneurs and people looking to start their own startups.
 Where?: In hotspots of talent all over the world.
