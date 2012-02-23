@@ -1,0 +1,189 @@
+Name:   R2D2
+Desc:   A personal computing device in the cloud.
+
+Question: How do we deliver cloud computing to everyone?
+
+What?:  R2D2 promises to do to the cloud what Jobs did to Personal Computing.
+        This is about making the cloud more available, more usable and more beautiful.
+Why?:   The cloud has become synonymous with an ubiquitous storage service.
+        But is that it?
+        We wish to shift the focus of the cloud from storage to everyday computing.
+        We want users to actually own cloud compute devices and install apps on it as easily as they use a smartphone.
+Who?:   The everyday Internet consumer.
+        People deserve more control, more privacy and unlimited freedom.
+Where?: In the cloud and delivered:
+        On your Pc.
+        On your tablet.
+        On your phone.
+        To refridgerators.
+        And Everywhere else.
+When?:  Now.
+
+How?:   By creating a massively scalable RESTful computing environment.
+        Developers make apps using extremely powerful core APIs to run on high performance compute clusters.
+        All this remains invisible to the user who uses these apps with the ease of a click.
+        
+________________________________________________________________________________
+
+Name:   Swan
+Desc:   A fault-tolerant distributed social network that focuses on sharing things.
+
+Question: How to let people share things easily?
+
+What?:  Swan aims to fix file sharing.
+        Welcome to the age of social file-sharing.
+Why?:   Social Networks seem to overlook the fact that people share "things" and not mere status updates.
+        Why to differentiate between a thought and say my wedding pics?
+        Why can't I share pdf files as seamlessly as a tweet?
+        Why do I have to "right-click-and-save" my friend's lol pic?
+        This is an attempt to rethink social file sharing.
+Who?:   People with content to share.
+        Artists. Photographers. Activists. And every other creative soul...
+Where?: Via torrents and over regular social networks.
+When?:  Now.
+        And in the event of a nuclear holocaust.
+        "Distributed" means users have the data. Always.
+
+How?:   Git based disbrituted content sharing.
+        Semi-desktop approach to leverage torrents.
+        Users own their data. Everything is encrypted. Even what has been shared.
+
+________________________________________________________________________________
+
+Name:   IHeartCode
+Desc:   Interactively teach people how to code.
+
+Question: How to make good hackers[1] ?
+
+What?:  IHeartCode is an interactive learning platform that runs from your browser.
+        It makes good hackers out of people.
+        Teaches them how to use git, code in Python and create beautiful web pages.
+Why?:   We have a lot of computer science graduates.
+        But very few hackers.
+        Why is that?
+        We think this is a symptom of an underlying disease in modern education system.
+        And we are trying to figure out a cure.
+Who?:   Everybody who wishes to dive in and unserstand computing.
+Where?: In your browser.
+        On your mobile or tablet or PC or Mac.
+When?:  Whenever the user feels his creative juices flow.
+
+How?:   Client Side interactive platform based on AIML[1] and in-browser REPL[2].
+        
+[1]:    AIML, or Artificial Intelligence Markup Language, is an XML dialect for creating natural language software agents.
+[2]:    A read–eval–print loop (REPL), also known as an interactive toplevel, is a simple, interactive computer programming environment.
+        The term is most usually used to refer to a Lisp interactive environment, but can be applied to command line shells and similar environments for F#, Smalltalk, Standard ML, Perl, Prolog, Scala, Python, Ruby, Haskell, APL, BASIC, J, Tcl, and other languages as well.
+        
+________________________________________________________________________________
+
+Name:   Eva
+Desc:   Solve the World's problems using microfunding.
+
+Question: How to solve the UN Millenium Goals[1] ?
+
+What?:  Eva represents the millions of people who live in deprivation.
+        Eva is an attempt to solve the world's biggest proplems.
+        (Especially, the ones listed under the UN Millenium Development Goals [1])
+Why?:   Hope dims for universal education by 2015, even as many poor countries make tremendous strides
+        We are frustrated by the sheer lack of global cooperation when it comes to human development.
+        Someone has to stand up against this.
+Who?:   The nearly 7 billion people on this planet.
+Where?: In Sub-Saharan Africa.
+        In South-East Asia.
+        In conflict zones.
+        And wherever people need help.
+When?:  We start today and change this world one small step at a time.
+
+How?:   By enabling people to make a contribution to human development.
+        By creating automated systems for not-for-profit organizations that are actively engaged in such endeavours.
+        And wrapping it all up into an extremely powerful API.
+        So that existing organizations like Greenpeace can leverage microfunding.
+        Imagine planting trees becomes a gift on Facebook.
+        Or feeding a hungry family in Botswana.
+        Or gifting books to children in India and Myanmar.
+        
+[1]:    http://www.un.org/millenniumgoals
+        
+________________________________________________________________________________
+
+Name:   Brew
+Desc:   Simpliy data collection by integrating mobile technologies and web forms.
+
+Question: How to let people collect and make sense of data?
+
+What?:  Brew lets you collect data by seamlessly integrating SMS, Voice calls, chat messages, social networks, emails and modern web forms into a single funnel.
+        This is about making sense of data and understanding trends.
+Why?:   Web forms are now becoming obsolete.
+        Social networks and mobile phones are now the primary pools of engagement for people.
+        We want to take advantage of these shifts in technology usage to make data collection easier.
+Who?:   Anyone who wishes to collect data from people.
+        It could be the kid next door trying to find out his friend's birthdays.
+        Or the local NGO making a survey.
+        Or even huge corporations trying to conduct market analysis.
+Where?: Using text messages.
+        And voice calls.
+        And chat messages.
+        And email campaigns.
+        And social networks.
+        And the good ol' web forms.
+When?:  Instantly.
+
+How?:   By leveraging mobile communication and social networks to enhance legacy web forms and email campaigns.
+        And designing intelligent data mining tools that make sense of all the data and visually present it to the user.
+        
+________________________________________________________________________________
+
+Name:   TestDrive
+Desc:   Create an efficient beta testing platform for web apps over services like Amazon Mechanical Turk[1].
+
+Question: How do we conduct efficient beta testing of our web app?
+
+What?:  TestDrive allows web developers to let people test their apps in sandboxes.
+        It taps into the wealth of online workers to make the process more efficient.
+Why?:   There has been a boom in Web2.0 applications and developers are always looking for extensive betatesting.
+Who?:   Web and mobile app developers.
+Where?: Using services like MTurk and its alternatives[2].
+When?:  On-Demand.
+
+How?:   It provides a wrapper to tap workers from services like MTurk [1] to give their feedback and try out new features.
+        And conducts extensive hotmapping to analyze user behaiour.
+
+[1]: https://www.mturk.com/mturk/welcome
+[2]: http://www.quora.com/Amazon-Mechanical-Turk/What-are-some-Mechanical-Turk-alternatives
+        
+________________________________________________________________________________
+
+Name:   IndSpark Intiative
+Desc:   A Startup for Startups that provides them access to infrastructure and training.
+
+Question: How do we enable startups to spring up globally?
+
+What?:  IndSpark Initiative is a launchpad for talented people on the lines of YCombinator[1].
+        We take this a step further to provide training and enhance education giving insights to future-entrepreneurs.
+Why?:   Because we need more Larry Page's.
+Who?:   To-Be Entrepreneurs and people looking to start their own startups.
+Where?: In hotspots of talent all over the world.
+When?:  We gradually work to foster talented individuals and slowly create a strong portfolio before expanding.
+
+How?:   By gathering angel partners and highly talented people who are experienced entrepreneurs.
+
+[1]: http://YCombinator.com
+        
+________________________________________________________________________________
+
+Name:   Dash
+Desc:   A web + Mobile application suite to get devs to write code from anywhere.
+
+Question: How do we write code on mobile devices?
+
+What?:  Dash is a set of applications that enable coding on mobile devices.
+        It comprises of various components that allow testing, debugging and deployment.
+Why?:   There is a visible shift in the way devs write code.
+        And mobile devices are today at-par with desktop computer in terms of performance.
+Who?:   Software Devs who want to keep trying new things in their applications.
+Where?: Using mobile apps and apps that run in browsers.
+When?:  Now.
+
+How?:   By designing interfaces for small screens and maximizing productivity.
+        Providing an extensive toolkit to allow coders for their applications.
+
