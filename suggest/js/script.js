@@ -44,7 +44,14 @@ var formClient = {};
 		return false;
     };
     
-    
+var query = {};
+location.search.replace( /[A-Z0-9]+?=(\w*)/gi, function(a) {
+	query[ a.split( '=' ).shift() ] = a.split( '=' ).pop();
+} );    
+
+var refField = document.getElementById('entry_6');
+refField.value = query.refer || "[No one in Particular]";
+
 function setReference(name){
     var refField = document.getElementById('entry_6');
     refField.value = name;
